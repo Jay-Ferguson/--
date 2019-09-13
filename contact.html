@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Jay F.</title>
+     <link rel="stylesheet" href="/css/normalize.css">
+     <link rel="stylesheet" href="/css/styles.css">
+     <link rel="icon" type="image/png" href="/assets/icon-png's/j-loho-bracket.png">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+          <main id="swup" class="swup-transition-fade">
+
+     <div class="nav-toggle-container">
+          <div class="toggle-btn">
+               <div class="one"></div>
+               <div class="two"></div>
+          </div>
+     </div>
+
+     <div class="menu">
+          <div class="data">
+               <ul>
+                    <li class="menu-title">Navigation</li>
+                    <li><a class="menu-items" href="/home.html">Home</a></li>
+                    <li><a class="menu-items" href="/about.html">About</a></li>
+                    <li><a class="menu-items" href="/projects.html">Projects</a></li>
+                    <li><a class="menu-items" href="/contact.html">Contact</a></li>
+               </ul>
+          </div>
+     </div>
+
+     <div class="logo-container">
+               <a href="home.html"><img src="../assets/icon-png's/j-loho-bracket.png" class="logo"></a>
+          </div>
+
+
+     <div id="particles-js">
+
+     </div>
+     
+     <!--shared content-end-->
+     <section id="container">
+          <div class="card-container">
+               <div class="intro-card">
+                    <div class="card-header contact-header  m13">
+                         Contact
+                    </div>
+                    <div class="underline"></div>
+                    <p class="intro-text contact-intro">
+                              If you have a project in mind you’d like to work on,
+                               or just interested in talking please feel free
+                              to contact me via email below.
+                    </p>
+
+                    <div class="email-container">
+                              <img class="mail-icon" src="../assets/icon-png's/email-icon.svg">
+                              <a class="mail" href="mailto:jayfergusonweb@gmail.com">jayfergusonweb@gmail.com</a>
+                         </div>
+               </div>
+
+               
+
+              
+          </div>
+
+     </section>
+    
+
+
+     //javascript dependencies
+     <script src="node_modules/swup/dist/swup.min.js"></script>
+     <script>
+          const swup = new Swup();
+          const options ={ animationSelector: '[class*="swup-transition]'};
+     </script>
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+     <script>
+          particlesJS.load('particles-js', '../particles.json',
+               function () {
+                    console.log("particles.json loaded...");
+               });
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.9.7/d3.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+     <script src="../node_modules/aos/dist/aos.js"></script>
+
+     <script src="/js/main.js"></script>
+</main>
+     <footer id="footer">
+          <div class="footer-text">Jay Ferguson™</div>
+     </footer>
+</body>
+
+</html>
